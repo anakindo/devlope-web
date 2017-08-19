@@ -88,41 +88,65 @@
     <div id="preloader"></div>
     <!-- ::::::::::::::::::::::::::: End: Preloader section ::::::::::::::::::::::::::: -->
 
+<!-- nav -->
+<navbar>
+    <?php $this->load->view('front/part/navbar'); ?>
+</navbar>
+<!-- end nav -->
 
-    <!-- ::::::::::::::::::::::::::: Start: Header Section ::::::::::::::::::::::::::: -->
-    <!-- Start: Header Section
-=============================================-->
-   
-    <!-- End: Menu-->
+<!-- slider -->
+<slider>
+    <?php $this->load->view('front/part/slider'); ?>
+</slider>
+<!-- end slider -->
 
+<!-- about -->
+<about>
+    <?php $this->load->view('front/part/about'); ?>
+</about>
+<!-- end about -->
 
-    
-    <!-- ::::::::::::::::::::::::::: End: Header Section::::::::::::::::::::::::::: -->
-
-
-
-
-
+<!-- service -->
+<service>
+    <?php $this->load->view('front/part/service');?>
+</service>
+<!-- end service -->
   
+<!-- work -->
+<work>
+    <?php $this->load->view('front/part/work'); ?>
+</work>
+ <!-- end work -->
 
- 
+ <!-- team -->
+<team>
+    <?php $this->load->view('front/part/team'); ?>
+</team>
+<!-- end team -->
 
-   
+<!-- testi -->
+<testi>
+    <?php $this->load->view('front/part/testi'); ?>
+</testi>
+<!-- end testi -->
 
+<!-- blog -->
+<blog>
+    <?php $this->load->view('front/part/blog'); ?>
+</blog>
+<!-- end blog -->
 
+<!-- client -->
+<client>
+    <?php $this->load->view('front/part/client'); ?>
+</client>
+<!-- end client -->
 
-    
-
-
-    
-
-
-   
-
-
-   
-
-   
+<!-- footer -->
+<footer>
+    <?php $this->load->view('front/part/footer'); ?>
+</footer>
+<!-- end footer -->
 <!-- START : Switcher 
 ========================================-->
 <div class="demo_changer">
