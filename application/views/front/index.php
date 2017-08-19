@@ -11,7 +11,7 @@
 <!-- Mirrored from tidytheme.com/barry/html/index-onepage.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2017 13:38:28 GMT -->
 <head>
     <!-- TITLE OF SITE -->
-    <title>Berry - Multipage Business HTML Template</title>
+    <title>PT Asia Resource System - IT Solution Provider</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -105,7 +105,7 @@
             </div>
             <div class="navbar_text">
                 <span>Business Theme <br>
-                <span class="navbar_text_t">Welcome to Barry</span></span>
+                <span class="navbar_text_t">Welcome to Asia Resource System</span></span>
             </div>
             <!-- Start: Social Icon-->
             <div class="social-nav">
@@ -130,9 +130,6 @@
 
                 <li>
                     <a href="#service">service</a>
-                </li>
-                <li>
-                    <a href="#pricing">Pricing</a>
                 </li>
                 <li>
                     <a href="#work">work</a>
