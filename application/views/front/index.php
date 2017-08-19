@@ -31,7 +31,7 @@
 ================================================== -->
     <!-- FONT ICONS -->
     <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/font-awesome.min.css" rel="stylesheet">
     <!-- Elegant Icons -->
     <link href="icon/elegant-icons/style.css" rel="stylesheet">
     <link href="icon/etlinefont-bower-master/style.css" rel="stylesheet">
