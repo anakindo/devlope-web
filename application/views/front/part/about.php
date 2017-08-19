@@ -15,7 +15,7 @@
                     <!-- slider content-->
                     <div class="title-container s-tb-c title-compress">
                         <div class="tp-caption small-content customin customout rs-title-small bg-sld-cp-primary tp-resizeme rs-parallaxlevel-0 wow zoomInDown" data-wow-delay="0.2s" data-wow-duration="2s">
-                            welcome to ARS
+                            Welcome to BARRY
                         </div>
 
                         <div class="tp-caption big-title rs-title customin customout bg-sld-cp-primary wow fadeInDownBig">
