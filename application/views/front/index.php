@@ -703,7 +703,7 @@
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="1" class="active"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/testimonial/t1.jpg" alt="">
                                 </li>
-                                <li class="" data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/testimonial/t1.jpg" alt="">
+                                <li class="" data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/testimonial/t1.jpg" alt="">
                                 </li>
                             </ol>
 
@@ -752,7 +752,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="blog-warp-1">
                         <div class="blog_imgg">
-                            <img src="images/blog/b1.jpg" alt="" />
+                            <img src="<?php echo base_url() ?>assets/images/blog/b1.jpg" alt="" />
                             <div class="blog_datee">
                                 <p><i class="fa fa-calendar"></i> October 27, 2016 </p>
                             </div>
@@ -768,7 +768,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="blog-warp-1">
                         <div class="blog_imgg">
-                            <img src="images/blog/b2.jpg" alt="" />
+                            <img src="<?php echo base_url() ?>assets/images/blog/b2.jpg" alt="" />
                             <div class="blog_datee">
                                 <p><i class="fa fa-calendar"></i> October 17, 2015 </p>
                             </div>
@@ -784,7 +784,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="blog-warp-1">
                         <div class="blog_imgg">
-                            <img src="images/blog/b3.jpg" alt="" />
+                            <img src="<?php echo base_url() ?>assets/images/blog/b3.jpg" alt="" />
                             <div class="blog_datee">
                                 <p><i class="fa fa-calendar"></i> October 24, 2014 </p>
                             </div>
@@ -824,49 +824,49 @@
                     <!-- client 1 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-1.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-1.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 2 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-2.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-2.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 3 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-3.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-3.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 4 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-4.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-4.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 5 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-5.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-5.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 6 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-6.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-6.png">
                             </div>
                         </div>
                     </div>
                     <!-- client 7 -->
                     <div class="item row">
                         <div class="col-md-12">
-                            <div class="client-box"><img alt="client" src="images/client/client-7.png">
+                            <div class="client-box"><img alt="client" src="<?php echo base_url() ?>assets/images/client/client-7.png">
                             </div>
                         </div>
                     </div>
@@ -916,11 +916,11 @@
       </div>
       <p>CHOOSE YOUR COLOR</p>
       <div class="predefined_styles"> 
-          <a href="#" rel="author" class="styleswitch"><img src="images/switcher/color_1.jpg" alt=""></a>
-          <a href="#" rel="alternate" class="styleswitch"><img src="images/switcher/color_2.jpg" alt=""></a>    
-          <a href="#" rel="next" class="styleswitch"><img src="images/switcher/color_3.jpg" alt=""></a>
-          <a href="#" rel="bookmark" class="styleswitch"><img src="images/switcher/color_0.jpg" alt=""></a>
-          <a href="#" rel="colorfr" class="styleswitch"><img src="images/switcher/color_4.jpg" alt=""></a>
+          <a href="#" rel="author" class="styleswitch"><img src="<?php echo base_url() ?>assets/images/switcher/color_1.jpg" alt=""></a>
+          <a href="#" rel="alternate" class="styleswitch"><img src="<?php echo base_url() ?>assets/images/switcher/color_2.jpg" alt=""></a>    
+          <a href="#" rel="next" class="styleswitch"><img src="<?php echo base_url() ?>assets/images/switcher/color_3.jpg" alt=""></a>
+          <a href="#" rel="bookmark" class="styleswitch"><img src="<?php echo base_url() ?>assets/images/switcher/color_0.jpg" alt=""></a>
+          <a href="#" rel="colorfr" class="styleswitch"><img src="<?php echo base_url() ?>assets/images/switcher/color_4.jpg" alt=""></a>
       </div>
       <span><a rel="tag" class="styleswitch" href="index-onepagec392.html?default=true">RESET STYLE</a></span>
   </div>
