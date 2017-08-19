@@ -28,4 +28,4 @@
             </div>
         </div>
     </div>
-    <!-- End:  slider -->  <!-- ::::::::::::::::::::::::::: Start:About Section ::::::
+    <!-- End:  slider -->  
