@@ -8,7 +8,7 @@
 <![endif]-->
 
 
-<!-- Mirrored from tidytheme.com/barry/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2017 13:24:47 GMT -->
+<!-- Mirrored from tidytheme.com/barry/html/index-onepage.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2017 13:38:28 GMT -->
 <head>
     <!-- TITLE OF SITE -->
     <title>Berry - Multipage Business HTML Template</title>
@@ -61,25 +61,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
-	<!--Replace Your Color-->
-	<link rel="stylesheet" href="css/colors/default-color.css">
-	<!--Replace Your Color Ends-->
+    <!--Replace Your Color-->
+    <link rel="stylesheet" href="css/colors/default-color.css">
+    <!--Replace Your Color Ends-->
 
-	<!-- Switcher Styles-->
-	<link rel="stylesheet" id="switcher-css" type="text/css" href="css/switcher.css" media="all" />
-	<!-- END Switcher Styles -->
+    <!-- Switcher Styles-->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="css/switcher.css" media="all" />
+    <!-- END Switcher Styles -->
 
-	<!-- Template Color Demo Examples -->
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color_1.css" title="alternate" media="all" /><!--Moderate orangeColor-->	
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color_2.css" title="next" media="all" /><!--Green Color-->	
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color_3.css" title="bookmark" media="all" /><!--Yellow Color-->	
-	<link rel="alternate stylesheet" type="text/css" href="css/colors/color_4.css" title="colorfr" media="all" /><!--Yellow Color-->	
-	<!-- END Template Color Demo Examples -->
-	
+    <!-- Template Color Demo Examples -->
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_1.css" title="alternate" media="all" /><!--Moderate orangeColor-->  
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_2.css" title="next" media="all" /><!--Green Color-->    
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_3.css" title="bookmark" media="all" /><!--Yellow Color-->   
+    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_4.css" title="colorfr" media="all" /><!--Yellow Color-->    
+    <!-- END Template Color Demo Examples -->
+    
         <!--[if IE]>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
@@ -90,6 +90,8 @@
 
 
     <!-- ::::::::::::::::::::::::::: Start: Header Section ::::::::::::::::::::::::::: -->
+    <!-- Start: Header Section
+=============================================-->
     <!-- nav -->
     <nav class="manimenu navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -103,7 +105,7 @@
             </div>
             <div class="navbar_text">
                 <span>Business Theme <br>
-		<span class="navbar_text_t">Welcome to Barry</span></span>
+                <span class="navbar_text_t">Welcome to Barry</span></span>
             </div>
             <!-- Start: Social Icon-->
             <div class="social-nav">
@@ -118,82 +120,42 @@
             </div>
             <!-- End: social-nav -->
             <!-- Start: Menu-->
-            <ul class="navbar-collapse collapse navbar-right">
+            <ul class="navbar-collapse collapse navbar-right single-page-nav" id="bs-example-navbar-collapse-1">
                 <li>
-                    <a href="#">Home</a>
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="index-two.html">Home Two</a>
-                        </li>
-                        <li>
-                            <a href="index-onepage.html">One Page</a>
-                        </li>
-                        <li>
-                            <a href="index-onepage_v2.html">One Page</a>
-                        </li>
-                        <li>
-                            <a href="index-onepage_v3.html">One Page</a>
-                        </li>
-                    </ul>
+                    <a href="#page-top">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">about</a>
+                    <a href="#about">about</a>
+                </li>
+
+                <li>
+                    <a href="#service">service</a>
                 </li>
                 <li>
-                    <a href="team.html">team</a>
+                    <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                    <a href="service.html">service</a>
+                    <a href="#work">work</a>
                 </li>
                 <li>
-                    <a href="gallery.html">work</a>
-                    <ul>
-                        <li>
-                            <a href="gallery.html">Work Page</a>
-                        </li>
-                        <li>
-                            <a href="single-gallery.html">Single Work</a>
-                        </li>
-                    </ul>
+                    <a href="#team">team</a>
                 </li>
                 <li>
-                    <a href="#">pages</a>
-                    <ul>
-                        <li>
-                            <a href="gallery.html">Work Page</a>
-                        </li>
-                        <li>
-                            <a href="single-gallery.html">Single Work</a>
-                        </li>
-                        <li>
-                            <a href="service.html">Service</a>
-                        </li>
-                        <li>
-                            <a href="single-blog.html">Single Blog</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="blog.html">blog</a>
-                </li>
-                <li>
-                    <a href="contact.html">contact</a>
+                    <a href="#blog">blog</a>
                 </li>
             </ul>
+           <!-- End:Menu-->
         </div>
     </nav>
     <!-- End: Menu-->
 
 
     <!-- Start : Slider -->
-    <div class="slider-area" id="page-top">
+    <div class="slider-area onepage_slider" id="page-top">
         <div class="bend niceties preview-2">
             <div class="slides" id="ensign-nivoslider">
                 <!-- slider image-->
-                <img alt="image" src="images/slider/slider2.jpg" title="#slider-direction-1"> <img alt="image" src="images/slider/slider1.jpg" title="#slider-direction-1">
+                <img alt="image" src="images/slider/lp2.jpg" title="#slider-direction-1"> <img alt="image" src="images/slider/slider2.jpg" title="#slider-direction-1">
             </div>
             <!-- end : slider image-->
             <div class="t-cn slider-direction" id="slider-direction-1">
@@ -206,7 +168,7 @@
                         </div>
 
                         <div class="tp-caption big-title rs-title customin customout bg-sld-cp-primary wow fadeInDownBig">
-                            Creative Studio
+                            <span> Onepage </span> <span class="slide_st1"> Studio </span>
                         </div>
 
                     </div>
@@ -224,7 +186,7 @@
 
 
     <!-- ::::::::::::::::::::::::::: Start:About Section ::::::::::::::::::::::::::: -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="container">
             <div class="base-header">
                 <h3>Welcome to BERRY</h3>
@@ -323,8 +285,8 @@
 
 
 
-    <!-- ::::::::::::::::::::::::::: Start:Our Services Section  ::::::::::::::::::::::::::: -->
-    <section class="feature-section">
+    <!-- ::::::::::::::::::::::::::: Start:Our FEATURES Section  ::::::::::::::::::::::::::: -->
+    <section class="feature-section" id="service">
         <div class="container">
             <!-- Start: Heading -->
             <div class="base-header">
@@ -389,8 +351,8 @@
                         </div>
                         <div class="callto-text">
                             <h4>
-								want to repair <span class="callto-hover"> your  Smartphone?</span>
-							</h4>
+                                want to repair <span class="callto-hover"> your  Smartphone?</span>
+                            </h4>
                             <p>
                                 We're here to help you manage your problem.
                             </p>
@@ -723,7 +685,7 @@
 
 
     <!-- ::::::::::::::::::::::::::: Start: Testimonial Section  ::::::::::::::::::::::::::: -->
-    <section class="testimonial-section" id="skill">
+    <section class="testimonial-section" id="testi">
         <div class="container">
             <!-- Start: Heading -->
             <div class="base-header">
@@ -778,7 +740,7 @@
 
     <!-- ::::::::::::::::::::::::::: Start: Blog Section  ::::::::::::::::::::::::::: -->
     <section class="blog-section">
-        <div class="container"> 
+        <div class="container">
             <!-- Start: Heading -->
             <div class="base-header">
                 <h3>Latest News</h3>
@@ -797,12 +759,12 @@
                         </div>
                         <h5><a href="blog.html"> Operating System Updates</a></h5>
                         <a href="#" class="subtext"><i class="fa fa-tag"></i>  Marketing </a> 
-						<a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
+                        <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
                         <p>Lorem Ipsum is simply dummy text ofthe anadthe printing of typesetting industrydummy texat the dummy text ofthe anadthe printing </p>
                         <a href="single-blog.html" class="blog_btn">Read More <span class="fa fa-angle-double-right"></span></a>
                     </div>
                 </div>
-                <!--/ Blog Item 1 -->
+                <!--/ Blog Item 1 --> 
                 <div class="col-sm-4 col-xs-12">
                     <div class="blog-warp-1">
                         <div class="blog_imgg">
@@ -813,7 +775,7 @@
                         </div>
                         <h5><a href="blog.html">System Security Testing</a></h5>
                         <a href="#" class="subtext"><i class="fa fa-tag"></i>  Marketing </a> 
-						<a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
+                        <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
                         <p>Lorem Ipsum is simply dummy text ofthe anadthe printing of typesetting industrydummy texat the dummy text ofthe anadthe printing </p>
                         <a href="single-blog.html" class="blog_btn">Read More <span class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -829,7 +791,7 @@
                         </div>
                         <h5><a href="blog.html">Operating System Updates</a></h5>
                         <a href="#" class="subtext"><i class="fa fa-tag"></i>  Marketing </a> 
-						<a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
+                        <a href="#" class="subtext"><i class="fa fa-comment-o"> </i> 5 Comments </a>
                         <p>Lorem Ipsum is simply dummy text ofthe anadthe printing of typesetting industrydummy texat the dummy text ofthe anadthe printing </p>
                         <a href="single-blog.html" class="blog_btn">Read More <span class="fa fa-angle-double-right"></span></a>
                     </div>
@@ -919,83 +881,7 @@
 
 
     <!-- :::::::::::::::::::::::::::Start:Footer Section   ::::::::::::::::::::::::::: -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="row">
-                <!-- Start: About -->
-                <div class="col-sm-4 col-xs-12">
-                    <div class="widget">
-                        <a href="index.html"><h3>Barry</h3></a>
-                        <p>Loren ipsum dolor consectetur adipiscing elit sed do eiusmod tempor incididunt know you labore et dolore magna aliqua consectetur adipiscing</p>
-                        <div class="contact_info">
-                            <ul>
-                                <li>
-                                    <i class="fa fa-map-marker"></i>
-                                    <p>100 Lorem Street, New York</p>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>
-                                    <p>+00 978-783-0597</p>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    <p>duncansp @themeview.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- End: About -->
-                <!-- Start: Latest post -->
-                <div class="col-sm-4 col-xs-12">
-                    <div class="widget">
-                        <h5>Latest post</h5>
-                        <ul class="recent-post">
-                            <li>
-                                <div class="recent-post-date">
-                                    <strong>17</strong> Jun
-                                </div>
-                                <h6><a href="single-blog.html">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a></h6>
-                            </li>
-                            <li>
-                                <div class="recent-post-date">
-                                    <strong>15</strong> Jun
-                                </div>
-                                <h6><a href="single-blog.html">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a></h6>
-                            </li>
-                            <li>
-                                <div class="recent-post-date">
-                                    <strong>27</strong> Jun
-                                </div>
-                                <h6><a href="single-blog.html">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a></h6>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End: Latest post -->
-                <!-- Start: Explor link -->
-                <div class="col-sm-4 col-xs-12">
-                    <div class="widget">
-                        <h5>Subscribe</h5>
-                        <div class="widget_mailchimp" id="mailchimp-2">
-                            <div id="mc_embed_signup">
-                                <div class="mailchimp-subtitle">
-                                    Enter your email and we'll send you a coupon with 10% off your next order.
-                                </div>
-                                <form action="#" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-                                    <span class="icon-mail6 icon"></span>
-                                    <input class="email" id="mce-EMAIL" name="EMAIL" placeholder="Your Email" required="" type="text" value="">
-                                    <input class="mc-embedded-subscribe" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe now!">
-                                </form>
-                                <div class="mailchimp-description"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End: Explor link -->
-            </div>
-        </div>
+    <footer class="footer-section footer_onepage">
         <!-- Start:Subfooter -->
         <div class="subfooter container">
             <div class="row">
@@ -1012,34 +898,37 @@
     </footer>
     <!-- ::::::::::::::::::::::::::: End:Footer Section   ::::::::::::::::::::::::::: -->
 
+
 <!-- START : Switcher 
 ========================================-->
 <div class="demo_changer">
   <div class="demo-icon"><i class="icon_cog"></i></div>
   <div class="form_holder">
-	 <div class="layout_styles">
-	 <p>LAYOUT STYLE</p>
-		<ul>
-		  <li><a href="index.html">Multipurpose v1</a></li>
-		  <li><a href="index-two.html">Multipurpose v2</a></li>
-		  <li> <a href="index-onepage.html">Landingpage v1</a></li>
-		  <li> <a href="index-onepage_v2.html">Landingpage v2</a></li>
-		  <li> <a href="index-onepage_v3.html">Landingpage v3</a></li>
-		</ul> 
-	  </div>
-	  <p>CHOOSE YOUR COLOR</p>
-	  <div class="predefined_styles"> 
-		  <a href="#" rel="author" class="styleswitch"><img src="images/switcher/color_1.jpg" alt=""></a>
-		  <a href="#" rel="alternate" class="styleswitch"><img src="images/switcher/color_2.jpg" alt=""></a>	
-		  <a href="#" rel="next" class="styleswitch"><img src="images/switcher/color_3.jpg" alt=""></a>
-		  <a href="#" rel="bookmark" class="styleswitch"><img src="images/switcher/color_0.jpg" alt=""></a>
-		  <a href="#" rel="colorfr" class="styleswitch"><img src="images/switcher/color_4.jpg" alt=""></a>
-	  </div>
-	  <span><a rel="tag" class="styleswitch" href="indexc392.html?default=true">RESET STYLE</a></span>
+     <div class="layout_styles">
+     <p>LAYOUT STYLE</p>
+        <ul>
+          <li><a href="index.html">Multipurpose v1</a></li>
+          <li><a href="index-two.html">Multipurpose v2</a></li>
+          <li> <a href="index-onepage.html">Landingpage v1</a></li>
+          <li> <a href="index-onepage_v2.html">Landingpage v2</a></li>
+          <li> <a href="index-onepage_v3.html">Landingpage v3</a></li>
+        </ul> 
+      </div>
+      <p>CHOOSE YOUR COLOR</p>
+      <div class="predefined_styles"> 
+          <a href="#" rel="author" class="styleswitch"><img src="images/switcher/color_1.jpg" alt=""></a>
+          <a href="#" rel="alternate" class="styleswitch"><img src="images/switcher/color_2.jpg" alt=""></a>    
+          <a href="#" rel="next" class="styleswitch"><img src="images/switcher/color_3.jpg" alt=""></a>
+          <a href="#" rel="bookmark" class="styleswitch"><img src="images/switcher/color_0.jpg" alt=""></a>
+          <a href="#" rel="colorfr" class="styleswitch"><img src="images/switcher/color_4.jpg" alt=""></a>
+      </div>
+      <span><a rel="tag" class="styleswitch" href="index-onepagec392.html?default=true">RESET STYLE</a></span>
   </div>
 </div>
 <!-- END Switcher 
 ========================================-->
+
+
 
     <!-- Scripts
 ========================================-->
@@ -1069,7 +958,7 @@
     <script src="js/jquery.singlePageNav.min.js"></script>
     <!--fswit Switcher   -->
     <script src="js/fswit.js"></script>
-	
+    
     <!-- Custom Scripts
 ========================================-->
     <script src="js/main.js"></script>
@@ -1077,5 +966,5 @@
 </body>
 
 
-<!-- Mirrored from tidytheme.com/barry/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2017 13:38:24 GMT -->
+<!-- Mirrored from tidytheme.com/barry/html/index-onepage.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2017 13:38:29 GMT -->
 </html>
