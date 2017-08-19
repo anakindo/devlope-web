@@ -21,10 +21,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="<?php echo base_url() ?>assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url() ?>assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url() ?>assets/images/apple-touch-icon-114x114.png">
 
 
     <!-- CSS Begins
@@ -33,47 +33,47 @@
     <!-- font-awesome -->
     <link href="<?php echo base_url() ?>assets/css/font-awesome.min.css" rel="stylesheet">
     <!-- Elegant Icons -->
-    <link href="icon/elegant-icons/style.css" rel="stylesheet">
-    <link href="icon/etlinefont-bower-master/style.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/icon/elegant-icons/style.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/icon/etlinefont-bower-master/style.css" rel="stylesheet">
     <!--/ FONT ICONS -->
 
     <!--Animate Effect-->
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css" rel="stylesheet">
 
     <!--Pretty Photo for Image Preview-->
-    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/prcss" rel="stylesheet">
 
     <!--Owl Carousel -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/owl.theme.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assests/css/owl.transitions.css" rel="stylesheet">
 
     <!-- nivo slider CSS -->
-    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" />
-    <link rel="stylesheet" href="css/nivo-preview.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/nivo-slider.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/nivo-preview.css" type="text/css" media="screen" />
 
     <!--BootStrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/normalize.css" rel="stylesheet">
 
     <!-- Main Style -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>assets/css/responsive.css" rel="stylesheet">
 
     <!--Replace Your Color-->
-    <link rel="stylesheet" href="css/colors/default-color.css">
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/colors/default-color.css">
     <!--Replace Your Color Ends-->
 
     <!-- Switcher Styles-->
-    <link rel="stylesheet" id="switcher-css" type="text/css" href="css/switcher.css" media="all" />
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="<?php echo base_url() ?>assets/css/switcher.css" media="all" />
     <!-- END Switcher Styles -->
 
     <!-- Template Color Demo Examples -->
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_1.css" title="alternate" media="all" /><!--Moderate orangeColor-->  
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_2.css" title="next" media="all" /><!--Green Color-->    
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_3.css" title="bookmark" media="all" /><!--Yellow Color-->   
-    <link rel="alternate stylesheet" type="text/css" href="css/colors/color_4.css" title="colorfr" media="all" /><!--Yellow Color-->    
+    <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/colors/color_1.css" title="alternate" media="all" /><!--Moderate orangeColor-->  
+    <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/colors/color_2.css" title="next" media="all" /><!--Green Color-->    
+    <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/colors/color_3.css" title="bookmark" media="all" /><!--Yellow Color-->   
+    <link rel="alternate stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/colors/color_4.css" title="colorfr" media="all" /><!--Yellow Color-->    
     <!-- END Template Color Demo Examples -->
     
         <!--[if IE]>
@@ -100,7 +100,7 @@
                 </button>
                 <a class="navbar-brand" href="#page-top">
                     <!-- LOGO -->
-                    <img alt="logo" class="logo" src="images/logo.png">
+                    <img alt="logo" class="logo" src="<?php base_url() ?>assets/images/logo.png">
                 </a>
             </div>
             <div class="navbar_text">
@@ -155,7 +155,7 @@
         <div class="bend niceties preview-2">
             <div class="slides" id="ensign-nivoslider">
                 <!-- slider image-->
-                <img alt="image" src="images/slider/lp2.jpg" title="#slider-direction-1"> <img alt="image" src="images/slider/slider2.jpg" title="#slider-direction-1">
+                <img alt="image" src="<?php echo base_url() ?>assets/images/slider/lp2.jpg" title="#slider-direction-1"> <img alt="image" src="<?php echo base_url() ?>assets/images/slider/slider2.jpg" title="#slider-direction-1">
             </div>
             <!-- end : slider image-->
             <div class="t-cn slider-direction" id="slider-direction-1">
@@ -275,7 +275,7 @@
                     </p>
                 </div>
                 <div class="col-md-7">
-                    <img src="images/about/img_1.jpg" alt="about">
+                    <img src="<?php echo base_url() ?>assets/images/about/img_1.jpg" alt="about">
                 </div>
             </div>
         </div>
@@ -299,7 +299,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="services-box-2">
                         <div class="services_warp">
-                            <img src="images/services/s1.jpg" alt="" />
+                            <img src="<?php base_url() ?>assets/images/services/s1.jpg" alt="" />
                             <a href="service.html">View Service</a>
                         </div>
                         <div class="number">01.</div>
@@ -311,7 +311,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="services-box-2">
                         <div class="services_warp">
-                            <img src="images/services/s2.jpg" alt="" />
+                            <img src="<?php echo base_url() ?>assets/images/services/s2.jpg" alt="" />
                             <a href="service.html">View Service</a>
                         </div>
                         <div class="number">02.</div>
@@ -323,7 +323,7 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="services-box-2">
                         <div class="services_warp">
-                            <img src="images/services/s3.jpg" alt="" />
+                            <img src="<?php echo base_url() ?>assets/images/services/s3.jpg" alt="" />
                             <a href="service.html">View Service</a>
                         </div>
                         <div class="number">03.</div>
@@ -481,12 +481,12 @@
                         <!-- Work Item 2 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-3" data-myorder="2">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-2.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-2.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-2.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-2.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -494,12 +494,12 @@
                         <!-- Work Item 3 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-4" data-myorder="3">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-3.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-3.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-3.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-3.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -507,12 +507,12 @@
                         <!-- Work Item 4 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-1" data-myorder="4">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-4.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-4.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-4.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-4.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -520,12 +520,12 @@
                         <!-- Work Item 5 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-2" data-myorder="1">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-5.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-5.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-5.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-5.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -533,12 +533,12 @@
                         <!-- Work Item 6 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-3" data-myorder="2">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-6.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-6.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-6.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-6.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -546,12 +546,12 @@
                         <!--/ End: Work Item 7 -->
                         <div class="col-md-3 col-sm-6 col-xs-12 mix category-2" data-myorder="1">
                             <div class="work-item">
-                                <div class="items"><img alt="" class="" src="images/work/work-7.jpg">
+                                <div class="items"><img alt="" class="" src="<?php echo base_url() ?>assets/images/work/work-7.jpg">
                                 </div>
                                 <div class="mask2">
                                     <p>Personal, Work, Home Office</p>
                                     <a href="single-gallery.html"><h3>Design Workspace</h3></a>
-                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="images/work/work-7.jpg"><i class="icon_zoom-in_alt"></i></a>
+                                    <a class="info2" data-rel="prettyPhoto[gallery_name]" href="<?php echo base_url() ?>assets/images/work/work-7.jpg"><i class="icon_zoom-in_alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -584,7 +584,7 @@
                 <div class="col-sm-3 col-xs-12">
                     <div class="member">
                         <div class="img">
-                            <img alt="team" class="img-responsive" src="images/team/2.jpg">
+                            <img alt="team" class="img-responsive" src="<?php echo base_url() ?>assets/images/team/2.jpg">
                             <div class="info">
                                 <h6>Ladia Park</h6>
                                 <p>CEO & Founder</p>
@@ -608,7 +608,7 @@
                 <div class="col-sm-3 col-xs-12">
                     <div class="member">
                         <div class="img">
-                            <img alt="team" class="img-responsive" src="images/team/3.jpg">
+                            <img alt="team" class="img-responsive" src="<?php echo base_url() ?>assets/images/team/3.jpg">
                             <div class="info">
                                 <h6>Adam Smith</h6>
                                 <p>Office Manager</p>
@@ -632,7 +632,7 @@
                 <div class="col-sm-3 col-xs-12">
                     <div class="member">
                         <div class="img">
-                            <img alt="team" class="img-responsive" src="images/team/1.jpg">
+                            <img alt="team" class="img-responsive" src="<?php echo base_url() ?>assets/images/team/1.jpg">
                             <div class="info">
                                 <h6>Wilson Jon</h6>
                                 <p>Technical Manager</p>
@@ -656,7 +656,7 @@
                 <div class="col-sm-3 col-xs-12">
                     <div class="member">
                         <div class="img">
-                            <img alt="team" class="img-responsive" src="images/team/4.jpg">
+                            <img alt="team" class="img-responsive" src="<?php echo base_url() ?>assets/images/team/4.jpg">
                             <div class="info">
                                 <h6>John Wilson</h6>
                                 <p>Chief Engineer</p>
@@ -699,9 +699,9 @@
                         <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
-                                <li class="" data-target="#quote-carousel" data-slide-to="0"><img class="img-responsive " src="images/testimonial/t1.jpg" alt="">
+                                <li class="" data-target="#quote-carousel" data-slide-to="0"><img class="img-responsive " src="<?php echo base_url() ?>assets/images/testimonial/t1.jpg" alt="">
                                 </li>
-                                <li data-target="#quote-carousel" data-slide-to="1" class="active"><img class="img-responsive" src="images/testimonial/t1.jpg" alt="">
+                                <li data-target="#quote-carousel" data-slide-to="1" class="active"><img class="img-responsive" src="<?php echo base_url() ?>assets/images/testimonial/t1.jpg" alt="">
                                 </li>
                                 <li class="" data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/testimonial/t1.jpg" alt="">
                                 </li>
@@ -933,35 +933,35 @@
     <!-- Scripts
 ========================================-->
     <!-- jquery -->
-    <script src="js/vendor/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url() ?>assets/js/vendor/jquery-1.12.4.min.js" type="text/javascript"></script>
     <!-- Modernizer -->
-    <script src="js/vendor/modernizr-2.6.2.min.js" type="text/javascript"></script>
+    <script src="<?php echo base_url() ?>assets/js/vendor/modernizr-2.6.2.min.js" type="text/javascript"></script>
     <!-- plugins -->
-    <script src="js/plugins.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/plugins.js"></script>
     <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
     <!-- Use For Animation -->
-    <script src="js/wow.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/wow.min.js"></script>
     <!-- Use For carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/owl.carousel.min.js"></script>
     <!-- Use For Image Peview -->
-    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="<?php base_url() ?>assets/js/jquery.prettyPhoto.js"></script>
     <!-- Use For mixitup gallery -->
-    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.mixitup.min.js"></script>
     <!-- Use For nivo slider -->
-    <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
-    <script src="js/nivo-home.js" type="text/javascript"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="<?php echo base_url() ?>assets/js/nivo-home.js" type="text/javascript"></script>
     <!-- Use For jquery Easing -->
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jquery.easing.compatibility.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.easing.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.easing.compatibility.js"></script>
     <!-- Use For single Page Nav -->
-    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/jquery.singlePageNav.min.js"></script>
     <!--fswit Switcher   -->
-    <script src="js/fswit.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/fswit.js"></script>
     
     <!-- Custom Scripts
 ========================================-->
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url() ?>assets/js/main.js"></script>
 
 </body>
 
